@@ -60,17 +60,24 @@ header {
     background-size: cover;
     overflow: hidden;
     padding-top: 60px;
-}
-header {
     line-height: 1.5;
 }
-header .profile-image {
+
+.headerExperience  {
+    background: url('images/Shop Picture.jpg') no-repeat top center;
+    background-size: 100% 100%;
+}
+
+header .profile-image  {
     margin-top: 50px;
     width: 150px;
     height: 150px;
     border-radius: 50%;
     border: 3px solid blue;
     transition: all .5s;
+}
+.headerExperience {
+    line-height: 1.5;
 }
 
 .tag {
@@ -81,6 +88,16 @@ header .profile-image {
     display: table;
     margin: 10px auto;
 }
+
+.tagExperience {
+    background-color: steelblue;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    display: table;
+    margin: 100px auto;
+}
+
 .location {
     background-color: #222;
     color: white;
@@ -88,7 +105,7 @@ header .profile-image {
 .card {
     margin: 10px;
     padding: 20px 40px 40px;
-    max-width: 400px;
+    max-width: 500px;
     text-align: left;
     background: #fff;
     border-bottom: 4px solid #ccc;
